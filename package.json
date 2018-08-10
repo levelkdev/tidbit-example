@@ -41,12 +41,14 @@
     "standard": "^10.0.3",
     "truffle": "^4.1.13",
     "truffle-blockchain-utils": "^0.0.3",
+    "truffle-flattener": "^1.2.6",
     "truffle-hdwallet-provider": "^0.0.3",
     "web3": "^1.0.0-beta.35",
     "web3-utils": "^1.0.0-beta.35"
   },
   "scripts": {
-    "build": "node scripts/build.js",
+    "build": "node scripts/build.js ",
+    "build-full": "scripts/buildFull.sh",
     "cleanup": "rm -rf build/ && mkdir build && rm -rf lib/ && mkdir lib",
     "compile": "npm run cleanup && truffle compile --all && npm run build",
     "deploy": "npm run cleanup && truffle migrate --reset && npm run build",
