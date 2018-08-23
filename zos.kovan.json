@@ -1,0 +1,26 @@
+{
+  "contracts": {
+    "OwnedOracle": {
+      "address": "0xe2617b4476e727c26a96493baed6ce5dbf01072e",
+      "constructorCode": "608060405234801561001057600080fd5b50610c25806100206000396000f300",
+      "bodyBytecodeHash": "c87b79701e5ac963274a2a5cb88d82b2dcce77f9aea1c75b7934cc5b2f67c09f",
+      "bytecodeHash": "7b1465195a2b8cf573d9ff4706488de78c8432150dc974fd2da0b3f505c0be5e"
+    }
+  },
+  "proxies": {},
+  "app": {
+    "address": "0xe66c8950c5138b599d1c1afd0d8ea7d902307aa3"
+  },
+  "version": "0.1.0",
+  "package": {
+    "address": "0x414d802695a7031353a5b0496881d7780bb48e56"
+  },
+  "provider": {
+    "address": "0x2f008d8ee37fb950bd9d2f925174a03c19ea26c1"
+  },
+  "stdlib": {
+    "name": "tidbit-contracts-zos",
+    "version": "0.1.4",
+    "address": "0x129b3bdde668d51c8c75e82b5fc04fc7bcb9e82f"
+  }
+}

@@ -20,7 +20,7 @@
   ],
   "author": "Level K - https://levelk.io",
   "dependencies": {
-    "tidbit-contracts-zos": "^0.1.3",
+    "tidbit-contracts-zos": "^0.1.4",
     "zeppelin-solidity": "^1.11.0",
     "zos-lib": "^0.1.26"
   },

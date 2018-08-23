@@ -24,11 +24,10 @@ $ npm run compile
 
 ### Deploy
 
-Deploy contracts to RPC provider at port `8546`.
+Deploy contracts to network defined in truffle.js
 
 ```
-$ npm run testrpc
-$ npm run deploy
+$ zos push --network <development|kovan>
 ```
 
 ### Test
