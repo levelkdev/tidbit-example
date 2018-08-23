@@ -27,7 +27,14 @@ $ npm run compile
 Deploy contracts to network defined in truffle.js
 
 ```
-$ zos push --network <development|kovan>
+$ zos push --network development|kovan
+```
+
+### Create new instance
+
+Create a new instance of a contract
+```
+$ zos create OwnedOracle --init initialize --network development|kovan
 ```
 
 ### Test

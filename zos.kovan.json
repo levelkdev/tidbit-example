@@ -7,7 +7,15 @@
       "bytecodeHash": "7b1465195a2b8cf573d9ff4706488de78c8432150dc974fd2da0b3f505c0be5e"
     }
   },
-  "proxies": {},
+  "proxies": {
+    "OwnedOracle": [
+      {
+        "address": "0x1e05d15b3de0690943f899b85f6a5b5f525b3f78",
+        "version": "0.1.0",
+        "implementation": "0xe2617b4476e727c26a96493baed6ce5dbf01072e"
+      }
+    ]
+  },
   "app": {
     "address": "0xe66c8950c5138b599d1c1afd0d8ea7d902307aa3"
   },
