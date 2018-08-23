@@ -11,3 +11,4 @@ coverageEnv
 full
 
 .zos.session
+zos.development.json

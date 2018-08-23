@@ -2,7 +2,7 @@
   "name": "tidbit-example",
   "version": "0.1.0",
   "contracts": {
-    "ExampleOracle": "ExampleOracle"
+    "OwnedOracle": "OwnedOracle"
   },
   "stdlib": {
     "name": "tidbit-contracts-zos",

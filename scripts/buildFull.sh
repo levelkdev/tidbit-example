@@ -1,6 +1,6 @@
 #! /bin/bash
 
-ORACLE=ExampleOracle.sol
+ORACLE=OwnedOracle.sol
 
 OUTPUT=full
 
