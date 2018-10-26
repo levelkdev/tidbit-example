@@ -4,5 +4,8 @@
   "contracts": {
     "ETHPriceBet": "ETHPriceBet"
   },
-  "zosversion": "2"
+  "zosversion": "2",
+  "dependencies": {
+    "tidbit-eth": "^0.1.0"
+  }
 }
