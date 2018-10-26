@@ -2,10 +2,7 @@
   "name": "tidbit-example",
   "version": "0.1.0",
   "contracts": {
-    "OwnedOracle": "OwnedOracle"
+    "ETHPriceBet": "ETHPriceBet"
   },
-  "stdlib": {
-    "name": "tidbit-contracts-zos",
-    "version": "^0.1.4"
-  }
+  "zosversion": "2"
 }
