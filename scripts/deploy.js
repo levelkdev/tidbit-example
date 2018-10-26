@@ -38,6 +38,7 @@ module.exports = async (callback) => {
   console.log()
 
   console.log('Creating ETHPriceBet contract')
+  // TODO: figure out how to send eth to proxy on creation or add payable fallback
   const ethPriceBet = await project.createProxy(ETHPriceBet, { initArgs: [250, overAccount, underAccount, medianOracle.address] })
   console.log('ETHPriceBet: ' + ethPriceBet.address)
 
