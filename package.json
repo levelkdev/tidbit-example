@@ -20,9 +20,9 @@
   ],
   "author": "Level K - https://levelk.io",
   "dependencies": {
-    "tidbit-contracts-zos": "^0.1.4",
+    "tidbit-eth": "^0.1.0",
     "zeppelin-solidity": "^1.11.0",
-    "zos-lib": "^0.1.26"
+    "zos-lib": "^2.0.0"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
@@ -51,8 +51,7 @@
     "build-full": "scripts/buildFull.sh",
     "cleanup": "rm -rf build/ && mkdir build && rm -rf lib/ && mkdir lib",
     "compile": "npm run cleanup && truffle compile --all && npm run build",
-    "deploy": "npm run cleanup && truffle migrate --reset && npm run build",
-    "deploy-rinkeby": "npm run cleanup && truffle migrate --reset --network rinkeby && npm run build",
+    "deploy": "truffle exec scripts/deploy.js --network ${1:-development}",
     "test": "npm run build && scripts/test.sh",
     "test:truffle": "truffle test",
     "test:coverage": "npm run build && npm run solidity-coverage",

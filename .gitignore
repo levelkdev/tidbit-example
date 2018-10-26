@@ -8,7 +8,6 @@ coverage.json
 allFiredEvents
 scTopics
 coverageEnv
-full
 
 .zos.session
 zos.development.json
