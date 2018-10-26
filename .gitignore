@@ -9,5 +9,7 @@ allFiredEvents
 scTopics
 coverageEnv
 
+# ZeppelinOS
 .zos.session
 zos.development.json
+zos.dev-*
