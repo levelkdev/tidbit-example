@@ -4,7 +4,11 @@ An example of how to use the Tidbit library with ZeppelinOS
 
 https://github.com/levelkdev/tidbit/tree/tidbit-zos
 
-`OwnedOracle` inherits from Tidbit's `BasicOracle` and sets the `msg.sender` as the data source.
+```
+$ zos push --deploy-dependencies --network development
+$ npm run deploy
+```
+Make sure an instance of ganache-cli is running `npm run ganache-cli`
 
 ### Setup
 
@@ -13,13 +17,6 @@ Install ZeppelinOS: `npm install -g zos`
 Then run `npm install`
 
 `chmod +x ./scripts/**` to grant execute permissions on the scripts directory
-
-### Create new instance
-
-Create a new instance of a contract
-```
-$ zos create OwnedOracle --init initialize --network development|kovan
-```
 
 ### Compile
 
