@@ -5,7 +5,7 @@ An example of how to use the Tidbit library with ZeppelinOS
 https://github.com/levelkdev/tidbit/tree/tidbit-zos
 
 ```
-$ zos push --network development
+$ zos push --deploy-dependencies --network development
 $ npm run deploy
 ```
 Make sure an instance of ganache-cli is running `npm run ganache-cli`

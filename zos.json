@@ -2,8 +2,7 @@
   "name": "tidbit-example",
   "version": "0.1.0",
   "contracts": {
-    "ETHPriceBet": "ETHPriceBet",
-    "EmptyContract": "EmptyContract"
+    "ETHPriceBet": "ETHPriceBet"
   },
   "zosversion": "2",
   "dependencies": {
