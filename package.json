@@ -20,6 +20,7 @@
   ],
   "author": "Level K - https://levelk.io",
   "dependencies": {
+    "openzeppelin-eth": "^2.0.2",
     "tidbit-eth": "^0.1.1",
     "zeppelin-solidity": "^1.11.0",
     "zos-lib": "^2.0.0"
