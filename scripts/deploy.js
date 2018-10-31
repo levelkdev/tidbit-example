@@ -39,5 +39,14 @@ module.exports = async (callback) => {
   const ethPriceBet = await project.createProxy(ETHPriceBet, { initArgs: [config.line, config.overWagerer, config.underWagerer, medianOracle.address] })
   console.log('ETHPriceBet: ' + ethPriceBet.address)
 
+  if (config.automaticallyMakeWagers) {
+    console.log()
+    console.log('Placing wagers')
+    web3.eth.sendTransaction({value: web3.toWei(config.wagerAmountInETH), from: config.overWagerer})
+    console.log("overWagerer, " + config.overWagerer + ", wagered " + config.wagerAmountInETH + " ETH")
+    web3.eth.sendTransaction({value: web3.toWei(config.wagerAmountInETH), from: config.underWagerer})
+    console.log("underWagerer, " + config.underWagerer + ", wagered " + config.wagerAmountInETH + " ETH")
+  }
+
   console.log()
 }
